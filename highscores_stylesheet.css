@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+  }
+
+  .high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .high-score:hover {
+    transform: scale(1.025);
+  }
+
+  .container {
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    padding: 2rem;
+  }
+ .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* BUTTONS */
+  .btn {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    width: 35rem;
+    text-align: center;
+    font-family:sans-serif;
+    background-color: white;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1.6rem 0.4rem rgba(106, 197, 243, 0.671);
+    transition: transform ;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  h1 {
+    font-size: 5.4rem;
+    color: #56a5eb;
+    margin-bottom: 5rem;
+  }
+  
